@@ -34,7 +34,10 @@ const GeoRoute = ()=>{
         // console.log(body)
         const option = {
             method : 'PUT',
-            headers : {"Content-type" : "application/json"},
+            headers : {
+                'authorization' : 'bearer '+localStorage.getItem('user'),
+                'Content-Type' : 'application/json'
+            },
             body : JSON.stringify(body)
         }
         e.preventDefault()

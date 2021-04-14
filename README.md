@@ -27,9 +27,9 @@ Steps to start the backend server -
 3.      npm start
 
 
-The NodeJS server will be up and running, and an be accessed at [http://localhost:80/](http://localhost:80/)
+The NodeJS server will be up and running, and an be accessed at [http://localhost:8081/](http://localhost:8081/)
 
 ###  OUTPUT
 
     Connected to MongoDB
-    App is running on port 80
+    App is running on port 8081
